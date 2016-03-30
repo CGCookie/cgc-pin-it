@@ -34,9 +34,9 @@ class cgcProcessPinning {
 
 					wp_send_json_success( array('message' => 'already-pinned') );
 
-				} else if ( $user_id == $author ) {
+				//} else if ( $user_id == $author ) {
 
-					wp_send_json_success( array('message' => 'self-pinning') );
+					//wp_send_json_success( array('message' => 'self-pinning') );
 
 				} else {
 
